@@ -1,0 +1,74 @@
+/*Заголовок*/
+#header 
+	{
+	background-color:#dfdfdf;
+	text-align:center;
+	padding:5px;
+	}
+/*Заголовок*/
+#nav 
+	{
+	line-height:30px;
+	font-family:Tahoma;
+	font-size:1.5em; 
+	color:green;
+	background-color:#eeeeee;
+	height:500px;
+	width:200px;
+	float:left;
+	padding:5px; 
+	}
+/*Основное окно*/
+#section 
+	{
+	line-height:20px;
+	font-family:Tahoma;
+	font-size:1em; color:green;
+	width:700px;
+	float:left;
+	padding:10px; 
+	}
+/*нижняя панель*/
+#footer
+	{
+	background-color:grey;
+	color:white;
+	clear:both;
+	font-family:Tahoma;    
+	font-size:0.9em;
+	text-align:left;
+	padding:5px; 
+	}
+/*Окно для вставки видео*/
+iframe 
+	{
+	position:absolute;
+	top: 288px;left: 280px; 
+	width:380px; height:300px;
+	border-radius: 20px;
+	}
+
+/*Оформление ссылок*/
+p.ex 	
+	{
+	font-size:0.7em; 
+	color:green;
+	} 
+
+a:link    
+	{
+	font-size:0.4em; text-decoration: none;
+	color:green; background-color:transparent
+	}
+
+a:visited 
+	{
+	font-size:0.4em; color:green; 
+	background-color:transparent text-decoration: none;
+	}
+	
+a:hover  
+	{
+	font-size:0.5em; color:red; 
+	background-color:transparent
+	}
